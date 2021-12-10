@@ -1,0 +1,40 @@
+future
+cffi<=1.12.3
+pycparser==2.19
+pymunk==5.5.0
+numpy>=1.16.0
+torch>=1.7 # check if you're on 3090 machine, may need different torch install
+torchvision
+tensorboard>=2.0
+matplotlib
+pillow
+h5py
+six
+progressbar2
+opencv-python
+PyYAML
+gym
+pygame
+transforms3d
+sympy
+tinydb
+jupyterlab
+pandas
+imgaug
+psutil
+meshcat
+pyglet
+healpy
+configargparse
+#open3d>=0.11
+pynput>=1.7.3
+ipython
+tqdm
+jedi==0.17.2  # to fix ipython bug
+plotly>=4.14
+kaleido>=0.2.1  # needed for plotly .png rendering
+trimesh>=3.9
+rtree>=0.9.7  # needed for trimesh contains method
+networkx>=2.3
+pybullet==3.1.3
+# git+https://github.com/Improbable-AI/airobot.git@qa
